@@ -56,11 +56,8 @@ namespace Atividades
 
     public class Atividade4 : IAtividade
     {
-        string resposta = "Não, ele não está mentindo, ele consegue obter esse resultado com duas possibilidades, de acordo com o gráfico mostrado: " +
-            "\n - Se o array possuir a melhor hipótese do Insertion Sort, será possivel \"ordenar\" o array com apenas 5 comparações." +
-            "\n - Se for usado o algoritmo de Merge Sort é possivel ordenar o array de 6 números em 7 comparações" +
-            "\n Porém, esse amigo disse 'qualquer array' e não é qualquer array que se encaixa na primeira opção, sendo assim" +
-            "\n a opção 2 (Merge Sort) a única restante.";
+        string resposta = "Verdadeiro se for considerar o que o nomero de comparações do MergeSort é O(n log n) (como mostrado na tabela), e falso se"
+            +"\nse for considerar que o MergeSort tem a complexidade de O(n log2 n) que daria, aproximadamente, 15,51.";
 
         public void Executar()
         {
