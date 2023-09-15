@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Revisao1.Service/1.0.0": {
+        "dependencies": {
+          "Revisao1.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Revisao1.Service.dll": {}
+        }
+      },
+      "Revisao1.Domain/1.0.0": {
+        "runtime": {
+          "Revisao1.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Revisao1.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Revisao1.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
