@@ -5,17 +5,17 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revisao1", "Revisao1.csproj", "{6BD09D9E-F509-4EC6-95E9-C8CC8076FB26}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{258BF1F7-9452-4FD4-A424-C687940E5DE0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{258BF1F7-9452-4FD4-A424-C687940E5DE0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{0D3489B7-63F6-4518-929F-E3230E3F2BB0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{B6BB60EE-2BD2-43E3-B0C5-99096214662E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{B6BB60EE-2BD2-43E3-B0C5-99096214662E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Data", "4 - Data", "{91C28D27-5169-4EAF-BAD6-71A337289C58}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revisao1.Domain", "..\Revisao1.Domain\Revisao1.Domain.csproj", "{656ED1CF-77B4-40A1-980D-EA39D2856B65}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revisao1.Service", "..\Revisao1.Service\Revisao1.Service.csproj", "{A52F4F6C-EA0A-4788-900E-E75395BAEBE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revisao1.Application", "..\Revisao1.Service\Revisao1.Application.csproj", "{A52F4F6C-EA0A-4788-900E-E75395BAEBE1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Revisao1.Data", "..\Revisao1.Data\Revisao1.Data.csproj", "{CEAE905C-85D1-4FED-AE31-10BFBD527363}"
 EndProject

@@ -14,7 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Revisao1.Data\Revisao1.Data.csproj" />
     <ProjectReference Include="..\Revisao1.Domain\Revisao1.Domain.csproj" />
-    <ProjectReference Include="..\Revisao1.Service\Revisao1.Service.csproj" />
+    <ProjectReference Include="..\Revisao1.Service\Revisao1.Application.csproj" />
   </ItemGroup>
 
 </Project>

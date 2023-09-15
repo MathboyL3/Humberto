@@ -39,3 +39,43 @@ C:\Users\danie\OneDrive\Área de Trabalho\api revisão\asd\bin\Debug\net6.0\Revi
 C:\Users\danie\OneDrive\Área de Trabalho\api revisão\asd\bin\Debug\net6.0\Revisao1.Data.pdb
 C:\Users\danie\OneDrive\Área de Trabalho\api revisão\asd\bin\Debug\net6.0\jogos.json
 C:\Users\danie\OneDrive\Área de Trabalho\api revisão\asd\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\Revisao1.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\Revisao1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\Revisao1.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\Revisao1.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\Revisao1.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\Revisao1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\Revisao1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\Revisao1.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\refint\Revisao1.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\Revisao1.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\appsettings.json
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Revisao1.exe
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Revisao1.deps.json
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Revisao1.runtimeconfig.json
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Revisao1.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Revisao1.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Revisao1.Application.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Revisao1.Data.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Revisao1.Domain.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Revisao1.Data.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Revisao1.Domain.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\bin\Debug\net6.0\Revisao1.Application.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\staticwebassets\msbuild.Revisao1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\staticwebassets\msbuild.build.Revisao1.props
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Revisao1.props
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Revisao1.props
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\scopedcss\bundle\Revisao1.styles.css
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\Revisao1.csproj.CopyComplete
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\Revisao1.genruntimeconfig.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Revisão1API\Revisao1\obj\Debug\net6.0\ref\Revisao1.dll

@@ -1,18 +1,18 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Revisao1.Application.ViewModels;
 using Revisao1.Domain.Entities;
-using Revisao1.Domain.Interfaces;
+using Revisao1.Domain.Interfaces.Services;
 using Revisao1.Maps;
-using Revisao1.ViewModels;
 
 namespace Revisao1.Controllers
 {
-	[ApiController]
+    [ApiController]
 	[Route("[controller]")]
 	public class JogoController : ControllerBase
 	{
-		IService<Jogo> _jogoService { get; set; }
-		public JogoController(IService<Jogo> JogoService) 
+		IJogoService _jogoService { get; set; }
+		public JogoController(IJogoService JogoService) 
 		{
 			_jogoService = JogoService;
 		}
@@ -34,7 +34,7 @@ namespace Revisao1.Controllers
 				Numero6 = model.Numero6,
 			};
 
-			if (!_jogoService.AddJogo(new_jogo))
+			if (!_jogoService.Add(new_jogo))
 				return BadRequest("Jogo não registrado, os números devem ser diferentes!");
 
 			return Ok("Jogo registrado com sucesso!");
@@ -45,7 +45,7 @@ namespace Revisao1.Controllers
 		public IList<JogoViewModel> GetAll()
 		{
 			var mapper = AutoMapperConfiguration.config.CreateMapper();
-			return mapper.Map<IList<JogoViewModel>>(_jogoService.GetJogos());
+			return mapper.Map<IList<JogoViewModel>>(_jogoService.GetAll());
 		}
 
 	}

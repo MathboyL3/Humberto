@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using Revisao1.Application.ViewModels;
 using Revisao1.Domain.Entities;
-using Revisao1.ViewModels;
 
 namespace Revisao1.Maps
 {

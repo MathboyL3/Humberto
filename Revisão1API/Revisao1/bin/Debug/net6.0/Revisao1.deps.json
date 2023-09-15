@@ -9,9 +9,9 @@
       "Revisao1/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
+          "Revisao1.Application": "1.0.0",
           "Revisao1.Data": "1.0.0",
           "Revisao1.Domain": "1.0.0",
-          "Revisao1.Service": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -85,6 +85,14 @@
           }
         }
       },
+      "Revisao1.Application/1.0.0": {
+        "dependencies": {
+          "Revisao1.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Revisao1.Application.dll": {}
+        }
+      },
       "Revisao1.Data/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
@@ -97,14 +105,6 @@
       "Revisao1.Domain/1.0.0": {
         "runtime": {
           "Revisao1.Domain.dll": {}
-        }
-      },
-      "Revisao1.Service/1.0.0": {
-        "dependencies": {
-          "Revisao1.Domain": "1.0.0"
-        },
-        "runtime": {
-          "Revisao1.Service.dll": {}
         }
       }
     }
@@ -178,17 +178,17 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
     },
+    "Revisao1.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Revisao1.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Revisao1.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Revisao1.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

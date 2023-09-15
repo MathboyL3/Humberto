@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-namespace Revisao1.Attributes
+namespace Revisao1.Application.Attributes
 {
 	public class CustomStringLengthAttribute : ValidationAttribute
 	{

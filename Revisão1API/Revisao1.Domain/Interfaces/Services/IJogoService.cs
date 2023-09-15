@@ -5,12 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Revisao1.Domain.Interfaces
+namespace Revisao1.Domain.Interfaces.Services
 {
-	public interface IService<T>
+	public interface IJogoService : IServiceBase<Jogo>
 	{
 		
-		public bool AddJogo(T jogo);
-		public IList<Jogo> GetJogos();
 	}
 }

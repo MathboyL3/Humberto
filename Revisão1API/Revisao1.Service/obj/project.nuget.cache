@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/YpHklyvuTaxnNdJz5WPCddkXcAY0FL/EujPABTztj1D+Xn67KvwLB6pbBNGV4bovU1wrkoDpgkbMOEot8txug==",
+  "dgSpecHash": "lqkFrFwQ+La4XYgzXlofbdZ08xfl7hY2D7wslRv8JuJlK/Z+/AvGtQbRxIRPudPQl6BQjMWHRMlOxNFtcFHiRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\api revisão\\Revisao1.Service\\Revisao1.Service.csproj",
+  "projectFilePath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Humberto\\Revisão1API\\Revisao1.Service\\Revisao1.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

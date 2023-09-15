@@ -1,8 +1,10 @@
+using Revisao1.Application.Services;
 using Revisao1.Data.JogoR;
 using Revisao1.Domain.Entities;
 using Revisao1.Domain.Interfaces;
+using Revisao1.Domain.Interfaces.Repositories;
+using Revisao1.Domain.Interfaces.Services;
 using Revisao1.Maps;
-using Revisao1.Service.JogoS;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,8 +15,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddTransient<IService<Jogo>, JogoService>();
-builder.Services.AddTransient<IRepository<Jogo>, JogoRepository>();
+builder.Services.AddTransient<IJogoService, JogoService>();
+builder.Services.AddTransient<IJogoRepository, JogoRepository>();
 
 var app = builder.Build();
 

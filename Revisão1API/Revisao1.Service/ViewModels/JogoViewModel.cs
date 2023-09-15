@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Revisao1.Attributes;
+using Revisao1.Application.Attributes;
 
-namespace Revisao1.ViewModels
+namespace Revisao1.Application.ViewModels
 {
 	public class JogoViewModel
 	{

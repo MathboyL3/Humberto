@@ -1,18 +1,12 @@
-﻿using Revisao1.Domain.Entities;
-using Revisao1.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
-using System.Reflection.Metadata.Ecma335;
+﻿using Newtonsoft.Json;
+using Revisao1.Domain.Entities;
+using Revisao1.Domain.Interfaces.Repositories;
 
 namespace Revisao1.Data.JogoR
 {
-	public class JogoRepository : IRepository<Jogo>
+	public class JogoRepository : IJogoRepository
 	{
-		private const string path = "./jogos.json";
+		private const string path = "./Jogos DB/jogos.json";
 
 		public bool Add(Jogo jogo)
 		{
@@ -57,6 +51,11 @@ namespace Revisao1.Data.JogoR
 		{
 			IList<Jogo> list = GetAll();
 			return list.Count > 0 ? list.Max(x => x.ID) : 0;
+		}
+
+		public IList<Jogo> GetJogosOfCPF(string CPF)
+		{
+			return GetAll().Where(j => j.CPF.Equals(CPF)).ToList();
 		}
 	}
 }
