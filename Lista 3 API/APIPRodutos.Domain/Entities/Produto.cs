@@ -4,26 +4,23 @@ namespace APIProdutos.Domain.Entities
 {
 	public class Produto : IIdentifiable
 	{
-		private Produto() { }
-		#region Constructors
-		public Produto(string Nome, string Descricao, decimal Preco, int QuantidadeEstoque, bool Ativo) 
-		:this (Nome, Descricao, Preco, QuantidadeEstoque)
-		{
-			this.Ativo = Ativo;
-		}
 
-		public Produto(string Nome, string Descricao, decimal Preco, int QuantidadeEstoque)
+		#region Constructors
+		private Produto() { }
+
+		public Produto(string Nome, string Descricao, decimal Preco, int QuantidadeEstoque, bool Ativo)
 		{
 			this.Nome = Nome;
 			this.Descricao = Descricao;
 			this.Preco = Preco;
 			this.QuantidadeEstoque = QuantidadeEstoque;
 			DataCadastro = DateTime.Now;
+			this.Ativo = Ativo;
 		}
 		#endregion
 
 		#region Properties
-		public int ID { get; private set; }
+		public int ID { get; private set;  }
 		public string Descricao { get; private set; }
 		public string Nome { get; private set; }
 		public decimal Preco { get; private set; }
@@ -37,8 +34,14 @@ namespace APIProdutos.Domain.Entities
 		public void Desativar() => Ativo = false;
 		public bool TemEstoque() => QuantidadeEstoque > 0;
 		public bool TemEstoqueSuficiente(int quantidade_para_tirar) => QuantidadeEstoque >= quantidade_para_tirar;
-		public int SetNextID(IList<IIdentifiable> produtos) => (ID = produtos.Count > 0 ? produtos.Max(p => p.ID) + 1 : 0);
+		public int SetNextID(IList<IIdentifiable> produtos)
+		{
+			ID = 90;
+			Console.WriteLine(GetID());
+			return 100;
+		}
 		public void UpdateDataCadastro() => DataCadastro = DateTime.Now;
+		public int GetID() => (this as IIdentifiable).ID;
 		#endregion
 	}
 }

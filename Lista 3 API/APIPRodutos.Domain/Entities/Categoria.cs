@@ -22,7 +22,11 @@ namespace APIProdutos.Domain.Entities
 
 		#region Methods
 		public bool IsValid() => string.IsNullOrEmpty(Descricao) || string.IsNullOrEmpty(Nome);
-		public int SetNextID(IList<IIdentifiable> categorias) => (ID = categorias.Count > 0 ? categorias.Max(c => c.ID) + 1 : 0);
+		public int SetNextID(IList<IIdentifiable> categorias)
+		{
+			ID = categorias.Count > 0 ? categorias.Max(f => f.ID) + 1 : 0;
+			return ID;
+		}
 		#endregion
 	}
 }

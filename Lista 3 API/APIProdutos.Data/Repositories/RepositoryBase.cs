@@ -16,6 +16,8 @@ namespace APIProdutos.Data.Repositories
 
 		public bool Add(TEntity entity)
 		{
+			if (entity == null) return false;
+
 			var entities = GetAll();
 			entities.Add(entity);
 			return Save(entities);
@@ -23,7 +25,7 @@ namespace APIProdutos.Data.Repositories
 
 		public TEntity? Get(int id)
 		{
-			return GetAll().FirstOrDefault(p => p.ID.Equals(id));
+			return GetAll().FirstOrDefault(p => p.Equals(id));
 		}
 
 		public IList<TEntity> GetAll()
@@ -38,17 +40,28 @@ namespace APIProdutos.Data.Repositories
 		{
 			var entities = GetAll();
 			for (int i = 0; i < entities.Count; i++)
+			{
 				if (entities[i].ID.Equals(id))
+				{
 					entities.RemoveAt(i);
-			return Save(entities);
+					return Save(entities);
+				}
+			}
+					
+			return false;
 		}
 		public bool Update(int id, TEntity entity)
 		{
 			var entities = GetAll();
 			for (int i = 0; i < entities.Count; i++)
+			{
 				if (entities[i].ID.Equals(id))
+				{
 					entities[i] = entity;
-			return Save(entities);
+					return Save(entities);
+				}
+			}
+			return false;
 		}
 
 		public bool Save(IList<TEntity> entities)

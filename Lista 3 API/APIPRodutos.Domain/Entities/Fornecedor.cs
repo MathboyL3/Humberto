@@ -8,11 +8,8 @@ namespace APIProdutos.Domain.Entities
 		#region Constructors
 		private Fornecedor() { }
 		public Fornecedor(string Nome, string EmailContato, string CNPJ, string RazaoSocial, bool Ativo)
-			: this(Nome, EmailContato, CNPJ, RazaoSocial)
 		{
 			this.Ativo = Ativo;
-		}
-		public Fornecedor(string Nome, string EmailContato, string CNPJ, string RazaoSocial) {
 			this.Nome = Nome;
 			this.EmailContato = EmailContato;
 			this.CNPJ = CNPJ;
@@ -34,7 +31,11 @@ namespace APIProdutos.Domain.Entities
 		#region Methods
 		public void Ativar() => Ativo = true;
 		public void Desativar() => Ativo = false;
-		public int SetNextID(IList<IIdentifiable> fornecedores) => (ID = fornecedores.Count > 0 ? fornecedores.Max(f => f.ID) + 1 : 0);
+		public int SetNextID(IList<IIdentifiable> fornecedores)
+		{
+			ID = fornecedores.Count > 0 ? fornecedores.Max(f => f.ID) + 1 : 0;
+			return ID;
+		} 
 		public void UpdateDataCadastro() => DataCadastro = DateTime.Now;
 		#endregion
 	}

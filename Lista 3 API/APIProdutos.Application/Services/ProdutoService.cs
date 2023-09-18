@@ -13,7 +13,8 @@ namespace APIProdutos.Application.Services
 
 		public bool Add(Produto entity)
 		{
-			entity.SetNextID(GetAll().Select(e => (IIdentifiable)e).ToList());
+			Console.WriteLine("COUNT: " + GetAll().Count);
+			entity.SetNextID(GetAll().Select(e => e as IIdentifiable).ToList());
 			entity.UpdateDataCadastro();
 			return _repository.Add(entity);
 		}

@@ -4,6 +4,7 @@ namespace APIProdutos.Application.ViewModel
 {
 	public class ProdutoViewModel
 	{
+		public int ID { get; set; }
 		[Required]
 		public string Descricao { get; set; }
 
