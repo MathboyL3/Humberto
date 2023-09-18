@@ -15,7 +15,9 @@ namespace Revisao1.Data.JogoR
 
 			IList<Jogo> jogos = GetAll();
 
-			jogo.ID = GetNextID();
+			jogo.UpdateNextID(jogos);
+			jogo.RegisterTimeNow();
+
 			jogos.Add(jogo);
 			File.WriteAllText(path, JsonConvert.SerializeObject(jogos));
 			return true;
@@ -45,12 +47,6 @@ namespace Revisao1.Data.JogoR
 			IList<Jogo> list = JsonConvert.DeserializeObject<IList<Jogo>>(content);
 			
 			return list == null ? new List<Jogo>() : list;
-		}
-
-		public int GetNextID()
-		{
-			IList<Jogo> list = GetAll();
-			return list.Count > 0 ? list.Max(x => x.ID) : 0;
 		}
 
 		public IList<Jogo> GetJogosOfCPF(string CPF)

@@ -12,6 +12,5 @@ namespace Revisao1.Domain.Interfaces.Repositories
         public bool Add(T jogo);
         public T Get(int id);
         public IList<T> GetAll();
-        public int GetNextID();
     }
 }

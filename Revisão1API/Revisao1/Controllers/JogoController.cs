@@ -19,20 +19,10 @@ namespace Revisao1.Controllers
 
 
 		[HttpPost]
-		public ActionResult PostJogo([FromBody] JogoViewModel model)
+		public ActionResult Post([FromBody] JogoViewModel model)
 		{
-			Jogo new_jogo = new Jogo()
-			{
-				CPF = model.CPF,
-				Date = DateTime.Now,
-				Nome = model.Nome,
-				Numero1 = model.Numero1,
-				Numero2 = model.Numero2,
-				Numero3 = model.Numero3,
-				Numero4 = model.Numero4,
-				Numero5 = model.Numero5,
-				Numero6 = model.Numero6,
-			};
+			var mapper = AutoMapperConfiguration.config.CreateMapper();
+			Jogo new_jogo = mapper.Map<Jogo>(model);
 
 			if (!_jogoService.Add(new_jogo))
 				return BadRequest("Jogo não registrado, os números devem ser diferentes!");
