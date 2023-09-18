@@ -1,0 +1,15 @@
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\bin\Debug\net6.0\APIProdutos.Data.deps.json
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\bin\Debug\net6.0\APIProdutos.Data.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\bin\Debug\net6.0\APIProdutos.Data.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\bin\Debug\net6.0\APIProdutos.Domain.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\bin\Debug\net6.0\APIProdutos.Domain.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\obj\Debug\net6.0\APIProdutos.Data.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\obj\Debug\net6.0\APIProdutos.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\obj\Debug\net6.0\APIProdutos.Data.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\obj\Debug\net6.0\APIProdutos.Data.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\obj\Debug\net6.0\APIProdutos.Data.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\obj\Debug\net6.0\APIProdutos.Data.csproj.CopyComplete
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\obj\Debug\net6.0\APIProdutos.Data.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\obj\Debug\net6.0\refint\APIProdutos.Data.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\obj\Debug\net6.0\APIProdutos.Data.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Data\obj\Debug\net6.0\ref\APIProdutos.Data.dll

@@ -1,0 +1,17 @@
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\bin\Debug\net6.0\APIProdutos.Application.deps.json
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\bin\Debug\net6.0\APIProdutos.Application.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\bin\Debug\net6.0\APIProdutos.Application.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\bin\Debug\net6.0\APIProdutos.Data.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\bin\Debug\net6.0\APIProdutos.Domain.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\bin\Debug\net6.0\APIProdutos.Data.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\bin\Debug\net6.0\APIProdutos.Domain.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\obj\Debug\net6.0\APIProdutos.Application.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\obj\Debug\net6.0\APIProdutos.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\obj\Debug\net6.0\APIProdutos.Application.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\obj\Debug\net6.0\APIProdutos.Application.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\obj\Debug\net6.0\APIProdutos.Application.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\obj\Debug\net6.0\APIProdutos.Application.csproj.CopyComplete
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\obj\Debug\net6.0\APIProdutos.Application.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\obj\Debug\net6.0\refint\APIProdutos.Application.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\obj\Debug\net6.0\APIProdutos.Application.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos.Application\obj\Debug\net6.0\ref\APIProdutos.Application.dll
