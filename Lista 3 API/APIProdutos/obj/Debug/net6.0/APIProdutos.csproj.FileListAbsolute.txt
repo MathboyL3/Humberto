@@ -38,5 +38,4 @@ C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos\obj\D
 C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos\obj\Debug\net6.0\APIProdutos.pdb
 C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos\obj\Debug\net6.0\APIProdutos.genruntimeconfig.cache
 C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos\obj\Debug\net6.0\ref\APIProdutos.dll
-C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos\bin\Debug\net6.0\Data Base\Categorias.json
 C:\Users\danie\OneDrive\Área de Trabalho\Humberto\Lista 3 API\APIProdutos\bin\Debug\net6.0\Data Base\Produtos.json

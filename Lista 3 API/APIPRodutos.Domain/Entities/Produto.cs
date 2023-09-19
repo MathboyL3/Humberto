@@ -2,14 +2,15 @@
 
 namespace APIProdutos.Domain.Entities
 {
-	public class Produto : IIdentifiable
+	public class Produto : EntityBase
 	{
 
 		#region Constructors
 		private Produto() { }
 
-		public Produto(string Nome, string Descricao, decimal Preco, int QuantidadeEstoque, bool Ativo)
+		public Produto(int ID, string Nome, string Descricao, decimal Preco, int QuantidadeEstoque, bool Ativo)
 		{
+			this.ID = ID;
 			this.Nome = Nome;
 			this.Descricao = Descricao;
 			this.Preco = Preco;
@@ -17,10 +18,10 @@ namespace APIProdutos.Domain.Entities
 			DataCadastro = DateTime.Now;
 			this.Ativo = Ativo;
 		}
+
 		#endregion
 
 		#region Properties
-		public int ID { get; private set;  }
 		public string Descricao { get; private set; }
 		public string Nome { get; private set; }
 		public decimal Preco { get; private set; }
@@ -34,14 +35,9 @@ namespace APIProdutos.Domain.Entities
 		public void Desativar() => Ativo = false;
 		public bool TemEstoque() => QuantidadeEstoque > 0;
 		public bool TemEstoqueSuficiente(int quantidade_para_tirar) => QuantidadeEstoque >= quantidade_para_tirar;
-		public int SetNextID(IList<IIdentifiable> produtos)
-		{
-			ID = 90;
-			Console.WriteLine(GetID());
-			return 100;
-		}
+
 		public void UpdateDataCadastro() => DataCadastro = DateTime.Now;
-		public int GetID() => (this as IIdentifiable).ID;
+
 		#endregion
 	}
 }

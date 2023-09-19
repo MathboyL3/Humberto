@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace APIProdutos.Domain.Entities
 {
-	public class Fornecedor : IIdentifiable
+	public class Fornecedor : EntityBase
 	{
 		#region Constructors
 		private Fornecedor() { }
@@ -19,7 +19,6 @@ namespace APIProdutos.Domain.Entities
 		#endregion
 
 		#region Properties
-		public int ID { get; private set; }
 		public string Nome { get; private set; }
 		public string RazaoSocial { get; private set; }
 		public string CNPJ { get; private set; }
@@ -31,11 +30,6 @@ namespace APIProdutos.Domain.Entities
 		#region Methods
 		public void Ativar() => Ativo = true;
 		public void Desativar() => Ativo = false;
-		public int SetNextID(IList<IIdentifiable> fornecedores)
-		{
-			ID = fornecedores.Count > 0 ? fornecedores.Max(f => f.ID) + 1 : 0;
-			return ID;
-		} 
 		public void UpdateDataCadastro() => DataCadastro = DateTime.Now;
 		#endregion
 	}

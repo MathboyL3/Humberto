@@ -13,7 +13,7 @@ namespace APIProdutos.Application.Services
 
 		public bool Add(Fornecedor entity)
 		{
-			entity.SetNextID(GetAll().Select(e => (IIdentifiable)e).ToList());
+			entity.SetNextID(GetAll().Select(e => (EntityBase)e).ToList());
 			entity.UpdateDataCadastro();
 			return _repository.Add(entity);
 		}

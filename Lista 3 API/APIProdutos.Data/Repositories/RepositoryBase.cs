@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace APIProdutos.Data.Repositories
 {
-	public abstract class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class, IIdentifiable
+	public abstract class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : EntityBase 
 	{
 		public abstract string db_path { get; protected set; }
 
@@ -19,7 +19,9 @@ namespace APIProdutos.Data.Repositories
 			if (entity == null) return false;
 
 			var entities = GetAll();
+			entity.SetNextID(entities.Select(e => e as EntityBase).ToList());
 			entities.Add(entity);
+			
 			return Save(entities);
 		}
 
@@ -33,6 +35,11 @@ namespace APIProdutos.Data.Repositories
 			if (!File.Exists(db_path)) return new List<TEntity>();
 
 			string json = File.ReadAllText(db_path);
+
+			JsonSerializerSettings set = new JsonSerializerSettings() {
+				TypeNameHandling = TypeNameHandling.All,
+				MetadataPropertyHandling = MetadataPropertyHandling.ReadAhead,
+			};
 			return JsonConvert.DeserializeObject<List<TEntity>>(json) ?? new List<TEntity>();
 		}
 

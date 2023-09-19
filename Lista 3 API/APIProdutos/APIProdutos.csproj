@@ -16,4 +16,8 @@
     <ProjectReference Include="..\APIPRodutos.Domain\APIProdutos.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data Base\" />
+  </ItemGroup>
+
 </Project>
