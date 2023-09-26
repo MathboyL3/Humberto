@@ -8,6 +8,7 @@ namespace CartasPapaiNoel.Domain.Entities
 {
 	public class Carta : IEntityBase
 	{
+		private Carta() { }
 		public Carta(int ID, string Nome, Endereco Endereco, int Idade, string Conteudo) {
 			this.ID = ID;
 			this.Nome = Nome;
@@ -25,7 +26,7 @@ namespace CartasPapaiNoel.Domain.Entities
 
 		public int GetNextID(IList<IEntityBase> entities)
 		{
-			return ID = entities.Max(e => e.ID) + 1;
+			return ID = entities.Count > 0 ? entities.Max(e => e.ID) + 1 : 0;
 		}
 	}
 }

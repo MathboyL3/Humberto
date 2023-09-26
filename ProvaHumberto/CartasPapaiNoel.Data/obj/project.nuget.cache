@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Hg4c1hj4QHxEhKjliyCkIdhOv3mN/Nks2SgkKxyRv8K4ZMmlv5UbnEiOZTqFEZ/9QfLWvT0bybZg8mU6DWMUlg==",
+  "dgSpecHash": "I2rp8l80/R0QHlbCZkrcHjMZ3/mutASh8q233BJkJRlTZxqHCOQyAC6WNElU8j1eFb9vt17SQw+7VaTmHEzGmw==",
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Humberto\\ProvaHumberto\\CartasPapaiNoel.Data\\CartasPapaiNoel.Data.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

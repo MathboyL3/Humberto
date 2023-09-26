@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CartasPapaiNoel.API.props" />
+</Project>

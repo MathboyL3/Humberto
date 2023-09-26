@@ -7,43 +7,33 @@ using Newtonsoft.Json;
 
 namespace CartasPapaiNoel.API.Controllers
 {
+	[ApiController]
+	[Route("[controller]")]
 	public class CartasController : ControllerBase
 	{
-		const string Pasta = "./Data/";
-		const string CartasPath = $"{Pasta}Cartas.json";
-		public IList<Carta> GetAllCartas()
-		{
-			if (!System.IO.File.Exists(CartasPath)) return new List<Carta>();
 
-			string json = System.IO.File.ReadAllText(CartasPath);
-			return JsonConvert.DeserializeObject<List<Carta>>(json);
+		ICartaRepository _service { get; set; }
+		public CartasController(ICartaRepository service) {
+			_service = service;
 		}
-
-		public void SaveCartas(IList<Carta> cartas)
-		{
-			System.IO.File.WriteAllText(CartasPath, JsonConvert.SerializeObject(cartas));
-		}
-
-		public CartasController() { }
 
 		[HttpGet]
 		public IList<CartaViewModel> GetCartas()
 		{
-			return AutoMapperConfig.Map.Map<IList<CartaViewModel>>(GetAllCartas());
+			return AutoMapperConfig.Map.Map<IList<CartaViewModel>>(_service.GetAll());
 		}
 
 		[HttpGet("{id}")]
 		public CartaViewModel Get(int id)
 		{
-			return AutoMapperConfig.Map.Map<CartaViewModel>(GetAllCartas().FirstOrDefault(c => c.ID == id));
+			return AutoMapperConfig.Map.Map<CartaViewModel>(_service.GetAll().FirstOrDefault(c => c.ID == id));
 		}
 
+		[HttpPost]
 		public ActionResult EnviarCarta([FromBody] CartaViewModel carta)
 		{
-			var cartas = GetAllCartas();
 			var new_carta = AutoMapperConfig.Map.Map<Carta>(carta);
-			cartas.Add(new_carta);
-			SaveCartas(cartas);
+			_service.Add(new_carta);
 			return Ok();
 		}
 

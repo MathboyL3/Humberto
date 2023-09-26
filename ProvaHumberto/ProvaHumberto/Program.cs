@@ -1,4 +1,7 @@
 using CartasPapaiNoel.Application.AutoMapper.Configuration;
+using CartasPapaiNoel.Application.Services;
+using CartasPapaiNoel.Data.Repositories;
+using CartasPapaiNoel.Domain.Interfaces.Specialized;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +11,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddTransient<ICartaService, CartaService>();
+builder.Services.AddTransient<ICartaRepository, CartaRepository>();
 
 var app = builder.Build();
 

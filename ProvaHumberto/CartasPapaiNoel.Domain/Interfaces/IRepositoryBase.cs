@@ -12,6 +12,7 @@ namespace CartasPapaiNoel.Domain.Interfaces
 	{
 		public TEntity GetEntity(int id);
 		public IList<TEntity> GetAll();
+		public bool Add(TEntity entity);
 		public bool Save(IList<TEntity> entities);
 		public bool Delete(int id);
 		public bool Update(int id, TEntity entity);

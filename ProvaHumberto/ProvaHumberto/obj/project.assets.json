@@ -141,6 +141,20 @@
           "bin/placeholder/CartasPapaiNoel.Application.dll": {}
         }
       },
+      "CartasPapaiNoel.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CartasPapaiNoel.Domain": "1.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CartasPapaiNoel.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CartasPapaiNoel.Data.dll": {}
+        }
+      },
       "CartasPapaiNoel.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -611,6 +625,11 @@
       "path": "../CartasPapaiNoel.Application/CartasPapaiNoel.Application.csproj",
       "msbuildProject": "../CartasPapaiNoel.Application/CartasPapaiNoel.Application.csproj"
     },
+    "CartasPapaiNoel.Data/1.0.0": {
+      "type": "project",
+      "path": "../CartasPapaiNoel.Data/CartasPapaiNoel.Data.csproj",
+      "msbuildProject": "../CartasPapaiNoel.Data/CartasPapaiNoel.Data.csproj"
+    },
     "CartasPapaiNoel.Domain/1.0.0": {
       "type": "project",
       "path": "../CartasPapaiNoel.Domain/CartasPapaiNoel.Domain.csproj",
@@ -620,6 +639,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "CartasPapaiNoel.Application >= 1.0.0",
+      "CartasPapaiNoel.Data >= 1.0.0",
       "CartasPapaiNoel.Domain >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -654,6 +674,9 @@
           "projectReferences": {
             "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Humberto\\ProvaHumberto\\CartasPapaiNoel.Application\\CartasPapaiNoel.Application.csproj": {
               "projectPath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Humberto\\ProvaHumberto\\CartasPapaiNoel.Application\\CartasPapaiNoel.Application.csproj"
+            },
+            "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Humberto\\ProvaHumberto\\CartasPapaiNoel.Data\\CartasPapaiNoel.Data.csproj": {
+              "projectPath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Humberto\\ProvaHumberto\\CartasPapaiNoel.Data\\CartasPapaiNoel.Data.csproj"
             },
             "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Humberto\\ProvaHumberto\\CartasPapaiNoel.Domain\\CartasPapaiNoel.Domain.csproj": {
               "projectPath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Humberto\\ProvaHumberto\\CartasPapaiNoel.Domain\\CartasPapaiNoel.Domain.csproj"

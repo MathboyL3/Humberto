@@ -8,6 +8,7 @@ namespace CartasPapaiNoel.Domain.Entities
 {
 	public class Endereco
 	{
+		private Endereco() { }
 		public Endereco(string Rua, string Bairro, string Cidade, string Estado, int Numero) {
 			this.Rua = Rua;
 			this.Bairro = Bairro;

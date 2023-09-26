@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaHumberto", "ProvaHumberto\ProvaHumberto.csproj", "{BCA29BB5-5033-466C-80E4-16625EE2E837}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartasPapaiNoel.API", "ProvaHumberto\CartasPapaiNoel.API.csproj", "{BCA29BB5-5033-466C-80E4-16625EE2E837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - API", "01 - API", "{0F91D795-4194-4573-98C8-91A5C6E9964F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{A92AC003-93EE-4217-9637-67BC7BFFF479}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Application", "03 - Application", "{47515A5F-E40C-44C6-91DA-B2919B9B3A4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Data", "04 - Data", "{5FA70705-E213-4BF9-8674-11160384B4C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartasPapaiNoel.Domain", "CartasPapaiNoel.Domain\CartasPapaiNoel.Domain.csproj", "{D46547D1-47F0-4DE8-9317-5B998070C6D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartasPapaiNoel.Application", "CartasPapaiNoel.Application\CartasPapaiNoel.Application.csproj", "{0C5EEB47-1D5A-4D52-93D0-A3D41E080A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartasPapaiNoel.Data", "CartasPapaiNoel.Data\CartasPapaiNoel.Data.csproj", "{CFF5EF7C-30A8-4844-8D8F-F02441C722B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +29,27 @@ Global
 		{BCA29BB5-5033-466C-80E4-16625EE2E837}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCA29BB5-5033-466C-80E4-16625EE2E837}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCA29BB5-5033-466C-80E4-16625EE2E837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D46547D1-47F0-4DE8-9317-5B998070C6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46547D1-47F0-4DE8-9317-5B998070C6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46547D1-47F0-4DE8-9317-5B998070C6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46547D1-47F0-4DE8-9317-5B998070C6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5EEB47-1D5A-4D52-93D0-A3D41E080A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C5EEB47-1D5A-4D52-93D0-A3D41E080A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C5EEB47-1D5A-4D52-93D0-A3D41E080A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C5EEB47-1D5A-4D52-93D0-A3D41E080A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF5EF7C-30A8-4844-8D8F-F02441C722B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF5EF7C-30A8-4844-8D8F-F02441C722B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF5EF7C-30A8-4844-8D8F-F02441C722B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF5EF7C-30A8-4844-8D8F-F02441C722B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCA29BB5-5033-466C-80E4-16625EE2E837} = {0F91D795-4194-4573-98C8-91A5C6E9964F}
+		{D46547D1-47F0-4DE8-9317-5B998070C6D3} = {A92AC003-93EE-4217-9637-67BC7BFFF479}
+		{0C5EEB47-1D5A-4D52-93D0-A3D41E080A68} = {47515A5F-E40C-44C6-91DA-B2919B9B3A4F}
+		{CFF5EF7C-30A8-4844-8D8F-F02441C722B6} = {5FA70705-E213-4BF9-8674-11160384B4C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C17ECDE6-B33E-4C73-9140-A138B7C0DF57}

@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace CartasPapaiNoel.Domain.Interfaces.Specialized
 {
-	public interface ICartaService : IEntityBase
+	public interface ICartaRepository : IRepositoryBase<Carta>
 	{
-
+		public IList<Carta> GetCartasIdadeMaiorQue(int idade);
+		public IList<Carta> GetCartasIdadeMenorQue(int idade);
 	}
 }

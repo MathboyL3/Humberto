@@ -7,10 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AutoMapper\" />
-    <Folder Include="CustomValidationAttributes\" />
-    <Folder Include="Services\" />
-    <Folder Include="ViewModels\" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CartasPapaiNoel.Domain\CartasPapaiNoel.Domain.csproj" />
   </ItemGroup>
 
 </Project>

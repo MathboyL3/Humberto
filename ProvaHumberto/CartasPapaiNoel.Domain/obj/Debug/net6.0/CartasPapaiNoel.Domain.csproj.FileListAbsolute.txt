@@ -1,0 +1,12 @@
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\bin\Debug\net6.0\CartasPapaiNoel.Domain.deps.json
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\bin\Debug\net6.0\CartasPapaiNoel.Domain.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\bin\Debug\net6.0\CartasPapaiNoel.Domain.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\obj\Debug\net6.0\CartasPapaiNoel.Domain.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\obj\Debug\net6.0\CartasPapaiNoel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\obj\Debug\net6.0\CartasPapaiNoel.Domain.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\obj\Debug\net6.0\CartasPapaiNoel.Domain.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\obj\Debug\net6.0\CartasPapaiNoel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\obj\Debug\net6.0\CartasPapaiNoel.Domain.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\obj\Debug\net6.0\refint\CartasPapaiNoel.Domain.dll
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\obj\Debug\net6.0\CartasPapaiNoel.Domain.pdb
+C:\Users\danie\OneDrive\Área de Trabalho\Humberto\ProvaHumberto\CartasPapaiNoel.Domain\obj\Debug\net6.0\ref\CartasPapaiNoel.Domain.dll
