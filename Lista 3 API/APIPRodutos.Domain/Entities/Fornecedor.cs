@@ -7,8 +7,9 @@ namespace APIProdutos.Domain.Entities
 	{
 		#region Constructors
 		private Fornecedor() { }
-		public Fornecedor(string Nome, string EmailContato, string CNPJ, string RazaoSocial, bool Ativo)
+		public Fornecedor(int ID, string Nome, string EmailContato, string CNPJ, string RazaoSocial, bool Ativo)
 		{
+			this.ID = ID;
 			this.Ativo = Ativo;
 			this.Nome = Nome;
 			this.EmailContato = EmailContato;

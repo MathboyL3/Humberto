@@ -7,8 +7,9 @@ namespace APIProdutos.Domain.Entities
 	{
 		#region Constructors
 		private Categoria() { }
-		public Categoria(string Nome, string Descricao)
+		public Categoria(int ID, string Nome, string Descricao)
 		{
+			this.ID = ID;
 			this.Nome = Nome;
 			this.Descricao = Descricao;
 		}
