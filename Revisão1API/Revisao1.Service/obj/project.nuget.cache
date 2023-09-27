@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lqkFrFwQ+La4XYgzXlofbdZ08xfl7hY2D7wslRv8JuJlK/Z+/AvGtQbRxIRPudPQl6BQjMWHRMlOxNFtcFHiRw==",
+  "dgSpecHash": "D8KVi8DwkVL74UK6lKii4RYtZlDezx6dHqzJIvCUMuGxKB59Lo8Y1zxNbeKu/MMUIqdB3ypC2VtV9wm1997aug==",
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\OneDrive\\Área de Trabalho\\Humberto\\Revisão1API\\Revisao1.Service\\Revisao1.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

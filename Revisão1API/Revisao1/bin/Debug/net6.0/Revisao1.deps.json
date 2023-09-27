@@ -87,6 +87,7 @@
       },
       "Revisao1.Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.1",
           "Revisao1.Domain": "1.0.0"
         },
         "runtime": {

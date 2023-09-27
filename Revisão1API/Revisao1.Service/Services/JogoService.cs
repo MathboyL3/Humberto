@@ -17,6 +17,8 @@ namespace Revisao1.Application.Services
 		public bool Add(Jogo jogo)
 		{
 			if (!jogo.IsNumerosValidos()) return false;
+			jogo.UpdateNextID(GetAll());
+			jogo.RegisterTimeNow();
 			_repository.Add(jogo);
 			return true;
 		}
@@ -26,9 +28,13 @@ namespace Revisao1.Application.Services
 			return _repository.GetAll();
 		}
 
+		public IList<Jogo> GetJogosOfCPF(string CPF) {
+			return _repository.GetJogosOfCPF(CPF);
+
+		}
 		public Jogo GetByID(int id)
 		{
-			return GetAll().FirstOrDefault(j => j.ID == id);
+			return _repository.GetByID(id);
 		}
 	}
 }

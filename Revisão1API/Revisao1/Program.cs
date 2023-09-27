@@ -4,7 +4,7 @@ using Revisao1.Domain.Entities;
 using Revisao1.Domain.Interfaces;
 using Revisao1.Domain.Interfaces.Repositories;
 using Revisao1.Domain.Interfaces.Services;
-using Revisao1.Maps;
+using Revisao1.Application.Maps;
 
 var builder = WebApplication.CreateBuilder(args);
 

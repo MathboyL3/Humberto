@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Revisao1.Application.Maps;
 using Revisao1.Application.ViewModels;
 using Revisao1.Domain.Entities;
 using Revisao1.Domain.Interfaces.Services;
-using Revisao1.Maps;
 
 namespace Revisao1.Controllers
 {

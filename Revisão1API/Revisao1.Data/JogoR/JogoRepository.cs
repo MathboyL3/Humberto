@@ -10,20 +10,20 @@ namespace Revisao1.Data.JogoR
 
 		public bool Add(Jogo jogo)
 		{
+			Directory.CreateDirectory(path.Substring(0, path.LastIndexOf('/') + 1));
 			if(!File.Exists(path))
 				File.Create(path).Close();
 
 			IList<Jogo> jogos = GetAll();
 
-			jogo.UpdateNextID(jogos);
-			jogo.RegisterTimeNow();
+			
 
 			jogos.Add(jogo);
 			File.WriteAllText(path, JsonConvert.SerializeObject(jogos));
 			return true;
 		}
 
-		public Jogo Get(int id)
+		public Jogo GetByID(int id)
 		{
 			IList<Jogo> jogos = GetAll();
 

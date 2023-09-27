@@ -9,6 +9,6 @@ namespace Revisao1.Domain.Interfaces.Services
 {
 	public interface IJogoService : IServiceBase<Jogo>
 	{
-		
+		public IList<Jogo> GetJogosOfCPF(string CPF);
 	}
 }
