@@ -12,14 +12,18 @@ namespace CartasPapaiNoel.Application.ViewModels
 	{
 
 		[CustomStringLegthValidation(3, 255)]
+		[Required]
 		public string Nome { get; set; }
 
+		[Required]
 		public EnderecoViewModel Endereco { get; set; }
 
 		[Range(0, 15)]
+		[Required]
 		public int Idade { get; set; }
 
 		[CustomStringLegthValidation(0, 500)]
+		[Required]
 		public string Conteudo { get; set; }
 
 	}
