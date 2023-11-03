@@ -26,10 +26,11 @@ namespace H1Store.Catalogo.Data.Repository
 			_mapper = mapper;
 		}
 		#endregion
+
 		#region - Funções
 		public async Task Adicionar(Produto produto)
 		{		
-			await	_produtoRepository.InsertOneAsync(_mapper.Map<ProdutoCollection>(produto));
+			await _produtoRepository.InsertOneAsync(_mapper.Map<ProdutoCollection>(produto));
 		}
 
 		public async Task Atualizar(Produto produto)
@@ -78,9 +79,7 @@ namespace H1Store.Catalogo.Data.Repository
 		{
 
 			var buscaProduto = await _produtoRepository.FindOneAsync(prod => prod.CodigoId == id);
-
 			var produto = _mapper.Map<Produto>(buscaProduto);
-			
 			return produto;
 		}
 
